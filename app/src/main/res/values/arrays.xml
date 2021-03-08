@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions_array">
+        <item>@string/konten_ck_q_0</item>
+        <item>@string/konten_ck_q_1</item>
+        <item>@string/konten_ck_q_2</item>
+        <item>@string/konten_ck_q_3</item>
+        <item>@string/konten_ck_q_4</item>
+        <item>@string/konten_ck_q_5</item>
+        <item>@string/konten_ck_q_6</item>
+        <item>@string/konten_ck_q_7</item>
+        <item>@string/konten_ck_q_8</item>
+        <item>@string/konten_ck_q_9</item>
+        <item>@string/konten_ck_q_10</item>
+        <item>@string/konten_ck_q_11</item>
+        <item>@string/konten_ck_q_12</item>
+        <item>@string/konten_ck_q_13</item>
+        <item>@string/konten_ck_q_14</item>
+        <item>@string/konten_ck_q_15</item>
+        <item>@string/konten_ck_q_16</item>
+        <item>@string/konten_ck_q_17</item>
+        <item>@string/konten_ck_q_18</item>
+        <item>@string/konten_ck_q_19</item>
+        <item>@string/konten_ck_q_20</item>
+        <item>@string/konten_ck_q_21</item>
+        <item>@string/konten_ck_q_22</item>
+        <item>@string/konten_ck_q_23</item>
+    </string-array>
+</resources>

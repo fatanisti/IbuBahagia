@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_splash1">44px</dimen>
+    <dimen name="font_size_splash2">23px</dimen>
+    <dimen name="font_size_splash3">18px</dimen>
+    <dimen name="font_size_title">32px</dimen>
+    <dimen name="font_size_1">13px</dimen>
+    <dimen name="font_size_2">16px</dimen>
+    <dimen name="font_size_3">18px</dimen>
+    <dimen name="font_size_4">20px</dimen>
+    <dimen name="font_size_5">27px</dimen>
+    <dimen name="pad_xxh_12">4dp</dimen>
+    <dimen name="pad_xxh_27">9dp</dimen>
+    <dimen name="pad_xxh_60">20dp</dimen>
+    <dimen name="pad_xxh_72">24dp</dimen>
+</resources>

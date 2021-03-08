@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream_main">#F8D7D4</color>
+    <color name="cream_sub">#F8DEDB</color>
+    <color name="purple_main">#CB5A78</color>
+    <color name="purple_sub">#CF6F89</color>
+    <color name="purple_dark">#3A0E3D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_main">#4FA4B6</color>
+    <color name="green_sub">#6AC1C2</color>
+    <color name="blue">#205386</color>
+    <color name="brown">#A68569</color>
+    <color name="darker_brown">#79404F</color>
+</resources>

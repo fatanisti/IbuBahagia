@@ -1,0 +1,184 @@
+{
+    "contact": [
+		{
+            "id": "1",
+            "nama_klinik": "Pusat Inovasi Psikologi (PIP) Fakultas Psikologi Universitas Padjadjaran",
+            "alamat": "Jl. Ir. H. Juanda No.438B, Dago, Kec. Coblong, Kota Bandung, Jawa Barat 40135",
+            "telepon": "Telp. 022 253 3431 / 081 1207 4388",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Pendidikan, Industri & Organisasi",
+            "plus_kode": "-6.869563,107.620812"
+        },
+        {
+            "id": "2",
+            "nama_klinik": "Dwipayana Biro Konsultasi Psikologi",
+            "alamat": "Jl. Panaitan No.15, Kebon Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112",
+            "telepon": "Telp. 022 420 5247",
+            "email_web": "dwipayana.com",
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Pendidikan, Industri & Organisasi",
+            "plus_kode": "-6.919313,107.616812"
+        },
+        {
+            "id": "3",
+            "nama_klinik": "PT. Swaparinama Biro Psikolog",
+            "alamat": "Jl. Siliwangi No.4, Lebak Siliwangi, Kec. Coblong, Kota Bandung, Jawa Barat 40132",
+            "telepon": "Telp. 022 250 4919",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Industri & Organisasi",
+            "plus_kode": "-6.884813,107.612938"
+        },
+        {
+            "id": "4",
+            "nama_klinik": "Biro Psikologi PURPOSIVE",
+            "alamat": "Jl. Abdi Negara 3 No.277, Tukmudal, Kec. Sumber, Kab. Cirebon, Jawa Barat 45611",
+            "telepon": "Telp. 081 5640 1125",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Pendidikan",
+            "plus_kode": "-6.751437,108.468937"
+        },
+		{
+            "id": "5",
+            "nama_klinik": "ZR Psychology Consulting",
+            "alamat": "Perum Bale Kembang B7, Jl. Dayeuh Handap, Kota Kulon, Kec. Garut Kota, Kab. Garut, Jawa Barat 44118",
+            "telepon": "Telp. 0812 2277 7086 / 0813 2174 4174",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Pendidikan, Industri & Organisasi",
+            "plus_kode": "-7.220688,107.902687"
+        },
+        {
+            "id": "6",
+            "nama_klinik": "Konsultan Psikologi Rafaza",
+            "alamat": "Jl. Sudajaya No.153/4, Jayaraksa, Kec. Baros, Kota Sukabumi, Jawa Barat 43166",
+            "telepon": "Telp. 0266 230 453",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Industri & Organisasi",
+            "plus_kode": "-6.952063,106.932063"
+        },
+        {
+            "id": "7",
+            "nama_klinik": "Pusat Pelayanan Psikologi Namirah",
+            "alamat": "Jl. Sariasih II No.1, Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat 40151",
+            "telepon": "Telp. 081 5715 7715",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Industri & Organisasi",
+            "plus_kode": "-6.875438,107.577562"
+        },
+        {
+            "id": "8",
+            "nama_klinik": "Bina Insani",
+            "alamat": "Jl. Raya Jalaksana No.149 (Apotek Nero), Jalaksana, Kec. Kuningan, Kab. Kuningan, Jawa Barat 45554",
+            "telepon": "Telp. 0232 888 1371",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Pendidikan",
+            "plus_kode": "-6.924188,108.487188"
+        },
+        {
+            "id": "9",
+            "nama_klinik": "Biro Psikologi Persona",
+            "alamat": "Surapati Core Blok M.21, Jl. PH.H. Hasan Mustofa, Pasirlayung, Kec. Cibeunying Kidul, Kota Bandung, Jawa Barat 40192",
+            "telepon": "Telp. 022 710 3720",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Industri & Organsiasi",
+            "plus_kode": "-6.899563,107.653188"
+        },
+        {
+            "id": "10",
+            "nama_klinik": "PSY Center Medika Antapani",
+            "alamat": "Jl. Purwakarta No.3, Babakan Surabaya, Kec. Antapani, Kota Bandung, Jawa Barat 40291",
+            "telepon": "Telp. 081 2149 4500 / 0813 2200 1987",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Industri & Organisasi, Pendidikan",
+            "plus_kode": "-6.913813,107.651938"
+        },
+        {
+            "id": "11",
+            "nama_klinik": "Biro Psikologi Optima",
+            "alamat": "Jl. Bumi Prima Raya No.16, Cibabat, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40514",
+            "telepon": "Telp. 0813 9445 6235",
+            "email_web": "psikologi-optima-cimahi.blogspot.com",
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Klinis Anak, Pendididkan",
+            "plus_kode": "-6.878438,107.565438"
+        },
+        {
+            "id": "12",
+            "nama_klinik": "GROW Psychological Service",
+            "alamat": "Jl. H. Haris No.2K, Baros, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40521",
+            "telepon": "Telp. 0813 2107 1805",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Pendidikan",
+            "plus_kode": "-6.895188,107.540562"
+        },
+        {
+            "id": "13",
+            "nama_klinik": "Biro Psikologi Progress",
+            "alamat": "Komplek Panorama Alam Parahyangan Blok G 16, Jl. A. H. Nasution, Sukamiskin, Kec. Arcamanik, Kota Bandung, Jawa Barat 40293",
+            "telepon": "Telp. 022 8783 1088",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Industri & Organisasi, Pendidikan",
+            "plus_kode": "-6.906688,107.669438"
+        },
+        {
+            "id": "14",
+            "nama_klinik": "Konsultan Psikologi - PT. Prognosis Mitra Karsa",
+            "alamat": "Jl. Cipaganti No.39, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161",
+            "telepon": "Telp. 0853 2029 0200",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Industri & Organisasi, Pendidikan",
+            "plus_kode": "-6.898813,107.602063"
+        },
+        {
+            "id": "15",
+            "nama_klinik": "Firdaus Amany Psychological Centre",
+            "alamat": "Jl. Baturaden Raya No.28, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40287",
+            "telepon": "Telp. 0852 2144 8850",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Pendidikan, Keluarga",
+            "plus_kode": "-6.963437,107.666687"
+        },
+        {
+            "id": "16",
+            "nama_klinik": "Melinda Psychology Development Center (MPDC) RS. Melinda 2",
+            "alamat": "Jl. Dr. Cipto No.1, Pasir Kaliki, Kec. Cicendo, Kota Bandung, Jawa Barat 40171",
+            "telepon": "Telp. 081 120 0450",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Dewasa",
+            "plus_kode": "-6.906187,107.598312"
+        },
+        {
+            "id": "17",
+            "nama_klinik": "Praktek Psikolog - Bandung Psychological Health Care",
+            "alamat": "Jl. Kolonel Masturi No.331 RT.001/006, Kertawangi, Kec. Cisarua, Kab. Bandung Barat, Jawa Barat 40551",
+            "telepon": "Telp. 0813 2070 8401",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Klinis Anak",
+            "plus_kode": "-6.797438,107.573313"
+        },
+        {
+            "id": "18",
+            "nama_klinik": "PT. Triantama Sentosa",
+            "alamat": "Jl. Dili Raya Blok A8 No.4, RT.003/RW.010, Bekasi Jaya, Kec. Bekasi Timur, Kota Bekasi, Jawa Barat 17112",
+            "telepon": "Telp. 021 2962 0539 / 0821 1418 2334",
+            "email_web": "triantamapsychological.mgt@gmail.com / www.triantama-sentosa.com",
+            "spesialisasi": "Spesialisasi: Klinis Anak, Klinis Dewasa, Industri & Organisasi, Pendidikan, Keluarga",
+            "plus_kode": "-6.235313,107.010312"
+        },
+        {
+            "id": "19",
+            "nama_klinik": "Biro Psikologi Rumah Cinta (D&D Project Bogor)",
+            "alamat": "Jl. Raya Pemda-Karadenan No.25 RT 001/004, Karadenan, Cibinong, Bogor, Jawa Barat 16913",
+            "telepon": "Telp. 081 7980 3739",
+            "email_web": null,
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Klinis Anak, Pendidikan, Industri & Organisasi",
+            "plus_kode": "-6.520188,106.808063"
+        },
+        {
+            "id": "20",
+            "nama_klinik": "Lembaga Jasa Psikologi Karawang - Deepa Psikologi",
+            "alamat": "Jl. Ronggowaluyo, Perumahan Mahkota Regency Blok K1 No.18, Sirnabaya, Kec. Telukjambe Timur, Kab. Karawang, Jawa Barat 41361",
+            "telepon": "Telp. 0852 9140 7885",
+            "email_web": "www.deepapsikologi.com",
+            "spesialisasi": "Spesialisasi: Klinis Dewasa, Klinis Anak,\nPendidikan, Industri & Organisasi",
+            "plus_kode": "-6.326187,107.306687"
+        }
+    ]
+}
