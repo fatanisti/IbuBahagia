@@ -67,12 +67,13 @@
                     app:layout_constraintStart_toStartOf="@id/container"
                     app:layout_constraintEnd_toEndOf="@id/container">
                     <TableRow android:orientation="horizontal">
-                        <TextView
+                        <ImageView
+                            android:layout_height="@dimen/px_xxh_80"
+                            android:scaleType="fitStart"
+                            android:layout_marginEnd="10dp"
                             android:layout_width="0dp"
                             android:layout_weight="0.1"
-                            android:textAlignment="center"
-                            android:textSize="@dimen/font_size_3"
-                            android:text="@string/uni_bullet"/>
+                            android:src="@drawable/bullet_flower"/>
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="0.9"
@@ -80,12 +81,13 @@
                             android:text="@string/konten_kk_third_poin_2"/>
                     </TableRow>
                     <TableRow android:orientation="horizontal">
-                        <TextView
+                        <ImageView
+                            android:layout_height="@dimen/px_xxh_80"
+                            android:scaleType="fitStart"
+                            android:layout_marginEnd="10dp"
                             android:layout_width="0dp"
                             android:layout_weight="0.1"
-                            android:textAlignment="center"
-                            android:textSize="@dimen/font_size_3"
-                            android:text="@string/uni_bullet"/>
+                            android:src="@drawable/bullet_flower"/>
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="0.9"

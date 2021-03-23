@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/purple_main</item>
         <item name="colorPrimaryVariant">@color/purple_sub</item>
         <item name="colorOnPrimary">@color/cream_main</item>
+        <item name="android:textColor">@android:color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
@@ -17,6 +18,8 @@
     </style>
     <style name="toggleButton"  parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
     </style>
     <style name="TitleFontStyle">
         <item name="android:textSize">@dimen/font_size_title</item>

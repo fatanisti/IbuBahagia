@@ -26,7 +26,7 @@
             android:textColor="@color/purple_dark"
             android:fontFamily="@font/chewy"
             android:gravity="center"
-            app:autoSizeTextType="uniform"
+            android:textSize="@dimen/font_size_title"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@id/header1"
             app:layout_constraintBottom_toTopOf="@id/isian"
@@ -44,7 +44,7 @@
             app:layout_constraintBottom_toTopOf="@id/button_ok"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_weight="5">
+            app:layout_constraintVertical_weight="6">
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/konten_isian"
                 android:layout_margin="15dp"
@@ -201,6 +201,36 @@
                             android:textColor="@color/blue"
                             android:textSize="@dimen/font_size_2"
                             android:text="@string/referensi_4"/>
+                    </TableRow>
+                    <TableRow android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.1"
+                            android:textAlignment="center"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/font_size_2"
+                            android:text="@string/uni_bullet"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.9"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/font_size_2"
+                            android:text="@string/referensi_5"/>
+                    </TableRow>
+                    <TableRow android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.1"
+                            android:textAlignment="center"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/font_size_2"
+                            android:text="@string/uni_bullet"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.9"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/font_size_2"
+                            android:text="@string/referensi_6"/>
                     </TableRow>
                     <TableRow android:orientation="horizontal"
                         android:minHeight="50dp">

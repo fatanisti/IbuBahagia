@@ -27,7 +27,7 @@ class SplashScreen : AppCompatActivity() {
             this.finish()
         }
 
-        cdt = object : CountDownTimer(5000, 1000) {
+        cdt = object : CountDownTimer(3000, 1000) {
             override fun onTick(p0: Long) {
                 spinner.visibility = View.VISIBLE
             }

@@ -56,6 +56,11 @@ class MainActivity : AppCompatActivity() {
         })
         mHomeWatcher.startWatch()
 
+        val buttonIntro = binding.itemTitle0
+        buttonIntro.setOnClickListener {
+            val intent = Intent(this, IntroActivity::class.java)
+            startActivity(intent)
+        }
         val buttonKK = binding.itemTitle1
         buttonKK.setOnClickListener {
             val intent = Intent(this, KebkehActivity::class.java)
@@ -142,18 +147,21 @@ class MainActivity : AppCompatActivity() {
         btDismiss.setOnClickListener {
             customDialog.dismiss()
         }
-        val link1 = dialogView.findViewById<TextView>(R.id.text_about_4)
-        val link2 = dialogView.findViewById<TextView>(R.id.text_about_5)
-        val link3 = dialogView.findViewById<TextView>(R.id.another_link1)
-        val link4 = dialogView.findViewById<TextView>(R.id.another_link2)
+        val link1 = dialogView.findViewById<TextView>(R.id.text_about_2)
+        val link2 = dialogView.findViewById<TextView>(R.id.text_about_4)
+        val link3 = dialogView.findViewById<TextView>(R.id.text_about_5)
+        val link4 = dialogView.findViewById<TextView>(R.id.another_link1)
+        val link5 = dialogView.findViewById<TextView>(R.id.another_link2)
         link1.movementMethod = LinkMovementMethod.getInstance()
         link2.movementMethod = LinkMovementMethod.getInstance()
         link3.movementMethod = LinkMovementMethod.getInstance()
         link4.movementMethod = LinkMovementMethod.getInstance()
+        link5.movementMethod = LinkMovementMethod.getInstance()
         link1.setLinkTextColor(Color.parseColor("#C32969"))
         link2.setLinkTextColor(Color.parseColor("#C32969"))
         link3.setLinkTextColor(Color.parseColor("#C32969"))
         link4.setLinkTextColor(Color.parseColor("#C32969"))
+        link5.setLinkTextColor(Color.parseColor("#C32969"))
         customDialog.show()
     }
     override fun onBackPressed() {
@@ -216,8 +224,7 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         val pm =
                 getSystemService(Context.POWER_SERVICE) as PowerManager
-        val isScreenOn: Boolean
-        isScreenOn = pm.isInteractive
+        val isScreenOn: Boolean = pm.isInteractive
         if (!isScreenOn) {
             if (mServ != null) {
                 mServ!!.pauseMusic()

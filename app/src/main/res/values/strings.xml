@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Ibu Bahagia</string>
-    <string name="app_description">Panduan bagi calon ibu tentang Depresi Pasca Melahirkan</string>
+    <string name="app_description">Panduan Kesehatan Mental dan Pencegahan Depresi Pasca Melahirkan bagi Calon Ibu</string>
     <string name="nav_masuk">Masuk</string>
     <string name="nav_start">Mulai</string>
     <string name="nav_prev">Kembali</string>
@@ -10,6 +10,7 @@
     <string name="uni_bullet">\u2022</string>
     <string name="opt_ok">OK</string>
     <string name="main_sambutan">Hai saya Gia!\nSelamat datang di aplikasi ibu bahagia.\nYuk kita mulai!</string>
+    <string name="menu_item_0">Pengenalan Tokoh</string>
     <string name="menu_item_1">Kebutuhan Kehamilan</string>
     <string name="menu_item_2">Apa itu DPM</string>
     <string name="menu_item_3">Tips Mencegah DPM</string>
@@ -19,7 +20,8 @@
     <string name="menu_item_sub_2">Memahami keadaan psikologis yang terjadi setelah melahirkan</string>
     <string name="menu_item_sub_3">Faktor resiko munculnya DPM dan tips menguranginya</string>
     <string name="menu_item_sub_4">Pengecekan dasar yang bunda alami terkait faktor resiko DPM</string>
-    <string name="menu_item_sub_5">Kontak bantuan profesional</string>
+    <string name="menu_item_sub_5">Kontak Biro dan Layanan Psikologis</string>
+    <string name="konten_intro">Halo bunda semua,\n\nSaya <b>Gia</b>, saya adalah seorang ibu dan calon psikolog yang ingin membagi pengalaman dan pengetahuan mengenai kesehatan mental dan pencegahan depresi pasca melahirkan bagi calon ibu melalui aplikasi <b>IBU BAHAGIA</b>.</string>
     <string name="konten_kk_intro_1">Selamat atas kehamilannya!</string>
     <string name="konten_kk_intro_2">Yuk kita lihat hal yang harus bunda persiapkan selama masa kehamilan</string>
     <string name="konten_kk_first">Jaga Kesehatan Fisik</string>
@@ -47,21 +49,21 @@
     <string name="konten_aid_intro_2">Mari kita cari tau yuk apa itu baby blues &amp; depresi pasca melahirkan.</string>
     <string name="konten_aid_first">Baby Blues</string>
     <string name="konten_aid_first_poin_1">Merupakan fase dimana seorang ibu mengalami emosi yang labil setelah melahirkan</string>
-    <string name="konten_aid_first_poin_2">Ditandai dengan sering menangis, lebih sensitif, terlihat kebingungan dan munculnya perasaan cemas</string>
+    <string name="konten_aid_first_poin_2">Tanda: Sering menangis, lebih sensitif, terlihat kebingungan dan munculnya perasaan cemas</string>
     <string name="konten_aid_first_poin_3">Dialami oleh sebagian besar ibu dalam rentang waktu 10 hari setelah melahirkan</string>
     <string name="konten_aid_first_poin_4">Jika dapat ditangani dengan baik maka keadaan ibu akan membaik</string>
     <string name="konten_aid_second">Depresi Pasca Melahirkan (DPM)</string>
     <string name="konten_aid_second_poin_1">Salah satu bentuk gangguan depresi yang terjadi periode setelah melahirkan - 2/3 bln setelah melahirkan</string>
-    <string name="konten_aid_second_poin_2">Ditandai dengan sering merasa sedih, kosong, tidak berdaya kelelahan, sulit tidur, tidak minat beraktifitas, tidak nafsu makan, sulit konsentrasi, merasa tidak bisa menjadi ibu yang baik, ada keinginan menyakiti diri / bunuh diri</string>
+    <string name="konten_aid_second_poin_2">Tanda: Sering merasa sedih, kosong, tidak berdaya kelelahan, sulit tidur, tidak minat beraktifitas, tidak nafsu makan, sulit konsentrasi, merasa tidak bisa menjadi ibu yang baik, ada keinginan menyakiti diri / bunuh diri</string>
     <string name="konten_aid_epilog">Kenali faktor resikonya pada menu Tips mencegah DPM\nApabila ibu mengalami tanda diatas silahkan hubungi profesional pada menu Bantuan</string>
     <string name="konten_tmd_intro">Hi bunda!\n\nGia akan memberikan tips yang bunda bisa lakukan untuk mencegah munculnya DPM</string>
     <string name="konten_tmd_first">Secara biologi dan fisik</string>
     <string name="konten_tmd_first_poin_1">Faktor hormonal ternyata merupakan salah satu penyebab munculnya depresi pasca melahirkan. Sehingga ada baiknya apabila ibu melakukan pemeriksaan rutin dan berkonsultasi dengan dokter setelah proses melahirkan dan selama proses penyembuhan ya.</string>
-    <string name="konten_tmd_first_poin_2">Tahukah ibu, ternyata meyusui anak dalam masa postpartum (6 minggu setelah melahirkan) merupakan salah satu hal yang bisa ibu lakukan untuk mengurangi kemungkinan munculnya depresi pasca melahirkan loh.</string>
+    <string name="konten_tmd_first_poin_2">Tahukah ibu, menurut penelitian yang dilakukan oleh Hahn-Holbrook et al, tahun 2013, menyusui anak dalam masa postpartum (6 minggu setelah melahirkan) merupakan salah satu hal yang bisa ibu lakukan untuk mengurangi kemungkinan munculnya depresi pasca melahirkan loh.</string>
     <string name="konten_tmd_second">Menjalin hubungan baik dengan pasangan</string>
-    <string name="konten_tmd_second_poin_1">Bahagia atau tidaknya ibu dengan suami juga menjadi salah satu faktor penting untuk mengurangi resiko terkena DPM loh.\n\nJika pernikahan tidak bahagia atau hubungan pasangan kurang bahagia terdapat kecenderungan ibu mengalami DPM.\n\nOleh karena itu Gia sarankan untuk menjaga komunikasi dan hubungan dengan pasangan.</string>
-    <string name="konten_tmd_third">Mengurangi terpapar keadaan yang stressful</string>
-    <string name="konten_tmd_third_poin_1">Keadaan stress ternyata merupakan salah satu faktor yang menjadi faktor resiko munculnya depresi pasca melahirkan loh.\n\nContohnya: konflik dengan pasangan, lingkungan rumah atau kantor yang tidak nyaman, dll. Oleh karena itu Gia sarankan sebisa mungkin ibu menghindari keadaan yang bisa membuat ibu stress.\n\nIbu juga bisa mempraktekan hal – hal berikut apabila terpapar keadaan yang membuat ibu stress</string>
+    <string name="konten_tmd_second_poin_1">Bahagia atau tidaknya ibu dengan suami juga menjadi salah satu faktor penting untuk mengurangi resiko terkena DPM loh.\n\nJika pernikahan tidak bahagia atau hubungan pasangan kurang bahagia terdapat kecenderungan ibu mengalami DPM.\n\nOleh karena itu Gia sarankan untuk menjaga komunikasi dan hubungan yang baik dengan pasangan.</string>
+    <string name="konten_tmd_third">Mengurangi paparan keadaan yang <i>stressful</i></string>
+    <string name="konten_tmd_third_poin_1">Keadaan stress ternyata merupakan salah satu faktor yang menjadi faktor resiko munculnya depresi pasca melahirkan loh.\n\nContohnya: konflik dengan pasangan, lingkungan rumah atau kantor yang tidak nyaman, dll. Oleh karena itu Gia sarankan sebisa mungkin ibu menghindari keadaan yang bisa membuat ibu stress secara berlebihan.\n\nIbu juga bisa mempraktekan hal – hal berikut apabila terpapar keadaan yang membuat ibu stress</string>
     <string name="konten_tmd_third_poin_2">Berbagi masalah yang dihadapi dengan teman/keluarga</string>
     <string name="konten_tmd_third_poin_3">Melakukan olahraga</string>
     <string name="konten_tmd_third_poin_4">Melakukan relaksasi</string>
@@ -232,14 +234,17 @@
     <string name="referensi_title">Referensi</string>
     <string name="referensi_1"><a href="https://www.womantalk.com">www.womantalk.com</a></string>
     <string name="referensi_2"><a href="https://www.ayahbunda.com">www.ayahbunda.com</a></string>
-    <string name="referensi_3">Diagnostic andStatistical Manual of Mental Disorder. (2013). Washington DC: APA. Beck, C. T. (2001). Predictors of postpartum depression: An update. Nursing Research, 50, 275–285.</string>
-    <string name="referensi_4"><![CDATA[Posner, N. A., Unterman, R. R., Williams, K. N., & Williams, G. H. (1997). Screening for postpartum depression: An antepartum questionnaire. Journal of Reproductive Medicine, 42, 207–215.]]></string>
+    <string name="referensi_3">American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.).</string>
+    <string name="referensi_4">Beck, C. T. (2001). Predictors of postpartum depression: An update. Nursing Research, 50, 275–285.</string>
+    <string name="referensi_5">Hahn-Holbrook, J., Haselton, M.G., Dunkel Schetter, C. et al. (2013). Does breastfeeding offer protection against maternal depressive symptomatology?. Arch Womens Ment Health 16, 411–422.</string>
+    <string name="referensi_6"><![CDATA[Posner, N. A., Unterman, R. R., Williams, K. N., & Williams, G. H. (1997). Screening for postpartum depression: An antepartum questionnaire. Journal of Reproductive Medicine, 42, 207–215.]]></string>
     <string name="about_tentang">Tentang Aplikasi</string>
     <string name="about_title">Kontributor</string>
-    <string name="about_item_1">Kreator:\nAndina Prameswari, S.PsI\n(IG @dina.hartana)\nFakultas Psikologi Universitas Padjajaran</string>
+    <string name="about_item_1">Kreator:\nAndina Prameswari, S.Psi.\n(IG: <a href="https://www.instagram.com/dina.hartana">@dina.hartana</a>)\nFakultas Psikologi Universitas Padjajaran</string>
     <string name="about_item_2">Pembimbing:\nAulia Iskandarsyah M.Psi., M.Sc., Ph.D., Psikolog\nFakultas Psikologi Universitas Padjajaran</string>
-    <string name="about_item_3">Programmer:\nFatan A. Ahdiy\n(<a href="https://www.linkedin.com/in/fatanahdiy97">Kunjungi LinkedIn</a>)</string>
-    <string name="about_item_4">Musik:\nGentle Theme (Piano)\noleh <a href="https://peritune.com">Peritune</a></string>
+    <string name="about_item_3">Programmer:\nFatan A. Ahdiy, S.Kom.\n(<a href="https://www.linkedin.com/in/fatanahdiy97">Kunjungi LinkedIn</a>)</string>
+    <string name="about_item_4">Ilustrator:\nDefika\n(IG: <a href="https://www.instagram.com/defikats">@defikats</a>)</string>
+    <string name="about_item_5">Musik:\nGentle Theme (Piano)\noleh <a href="https://peritune.com">Peritune</a></string>
     <string name="help_item_1">Bantuan Kesehatan Mental (Jawa Barat)\nSumber: HIMPSI JABAR</string>
     <string name="help_item_2">Nama Klinik</string>
     <string name="help_item_3">Alamat</string>

@@ -4,6 +4,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="@dimen/pad_xxh_12"
         android:background="@drawable/background_1">
         <View
             android:id="@+id/container"
@@ -39,7 +40,7 @@
             app:layout_constraintEnd_toEndOf="@id/container"
             app:layout_constraintStart_toStartOf="@id/container"
             app:layout_constraintTop_toBottomOf="@id/icon"
-            app:layout_constraintVertical_weight="1.5" />
+            app:layout_constraintVertical_weight="2" />
         <TextView
             android:id="@+id/subtitle"
             android:layout_width="0dp"
@@ -51,7 +52,7 @@
             app:layout_constraintEnd_toEndOf="@id/container"
             app:layout_constraintStart_toStartOf="@id/container"
             app:layout_constraintTop_toBottomOf="@id/title"
-            app:layout_constraintVertical_weight="2" />
+            app:layout_constraintVertical_weight="3" />
         <View
             android:id="@+id/bottom"
             android:layout_width="0dp"
@@ -61,7 +62,7 @@
             app:layout_constraintBottom_toBottomOf="@id/container"
             app:layout_constraintStart_toStartOf="@id/container"
             app:layout_constraintEnd_toEndOf="@id/container"
-            app:layout_constraintVertical_weight="1.5"/>
+            app:layout_constraintVertical_weight="1"/>
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleLarge"
@@ -73,16 +74,16 @@
             app:layout_constraintStart_toStartOf="@id/bottom"
             app:layout_constraintEnd_toEndOf="@id/bottom" />
         <Button
-            android:layout_width="200dp"
-            android:layout_height="0dp"
+            android:layout_width="@dimen/px_m_100"
+            android:layout_height="@dimen/px_m_100"
             android:id="@+id/button_masuk"
             android:text="@string/nav_masuk"
             android:textSize="@dimen/font_size_splash3"
             android:textColor="@color/white"
+            android:fontFamily="@font/chewy"
             android:background="@drawable/button_bg_round"
             app:layout_constraintTop_toTopOf="@id/bottom"
             app:layout_constraintBottom_toBottomOf="@id/bottom"
-            app:layout_constraintStart_toStartOf="@id/bottom"
             app:layout_constraintEnd_toEndOf="@id/bottom"
             android:visibility="invisible"/>
     </androidx.constraintlayout.widget.ConstraintLayout>

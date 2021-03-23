@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="font_size_splash1">176px</dimen>
+    <dimen name="font_size_splash1">200px</dimen>
     <dimen name="font_size_splash2">92px</dimen>
     <dimen name="font_size_splash3">72px</dimen>
     <dimen name="font_size_title">128px</dimen>
@@ -9,8 +9,11 @@
     <dimen name="font_size_3">72px</dimen>
     <dimen name="font_size_4">80px</dimen>
     <dimen name="font_size_5">108px</dimen>
-    <dimen name="pad_xxh_12">16dp</dimen>
-    <dimen name="pad_xxh_27">36dp</dimen>
-    <dimen name="pad_xxh_60">80dp</dimen>
-    <dimen name="pad_xxh_72">96dp</dimen>
+    <dimen name="pad_xxh_12">16px</dimen>
+    <dimen name="pad_xxh_27">36px</dimen>
+    <dimen name="pad_xxh_60">80px</dimen>
+    <dimen name="pad_xxh_72">96px</dimen>
+    <dimen name="px_xxh_80">108px</dimen>
+    <dimen name="px_xxh_120">160px</dimen>
+    <dimen name="px_m_100">400px</dimen>
 </resources>
