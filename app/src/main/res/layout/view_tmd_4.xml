@@ -32,7 +32,7 @@
             <TextView
                 android:id="@+id/teks1"
                 android:text="@string/konten_tmd_third_poin_1"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintHorizontal_weight="2"
@@ -72,7 +72,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_third_poin_2"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -86,7 +86,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_third_poin_3"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -100,7 +100,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_third_poin_4"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -114,7 +114,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_third_poin_5"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -128,7 +128,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_third_poin_6"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -142,7 +142,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_third_poin_7"/>
                 </TableRow>
             </TableLayout>

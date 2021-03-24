@@ -29,7 +29,7 @@
         <TextView
             android:id="@+id/konten1"
             android:text="@string/konten_aid_first_poin_1"
-            android:textSize="@dimen/font_size_3"
+            android:textSize="@dimen/font_size_2"
             android:textColor="@color/white"
             android:layout_marginHorizontal="20dp"
             android:layout_width="0dp"

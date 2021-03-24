@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:gravity="center"
-            android:textSize="@dimen/font_size_4"
+            android:textSize="@dimen/font_size_3"
             android:textColor="@color/purple_dark"
             android:fontFamily="@font/chewy"
             android:background="@drawable/grad_bg"

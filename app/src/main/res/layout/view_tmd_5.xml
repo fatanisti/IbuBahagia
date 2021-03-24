@@ -22,7 +22,7 @@
             <TextView
                 android:id="@+id/konten1"
                 android:text="@string/konten_tmd_fourth_poin_1"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -52,7 +52,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_fourth_poin_2"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -66,7 +66,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_fourth_poin_3"/>
                 </TableRow>
                 <TableRow android:orientation="horizontal">
@@ -80,7 +80,7 @@
                     <TextView
                         android:layout_width="0dp"
                         android:layout_weight="0.9"
-                        android:textSize="@dimen/font_size_3"
+                        android:textSize="@dimen/font_size_2"
                         android:text="@string/konten_tmd_fourth_poin_4"/>
                 </TableRow>
             </TableLayout>
@@ -90,7 +90,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 app:layout_constraintTop_toBottomOf="@id/konten2"
                 app:layout_constraintBottom_toTopOf="@id/konten4_1"
                 app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +113,7 @@
                 android:gravity="center"
                 android:background="@color/brown"
                 android:textColor="@color/white"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 app:layout_constraintTop_toTopOf="@id/konten4_1"
                 app:layout_constraintBottom_toBottomOf="@id/konten4_1"
                 app:layout_constraintStart_toStartOf="@id/konten4_1"
@@ -126,7 +126,7 @@
                 android:gravity="center"
                 android:background="@color/darker_brown"
                 android:textColor="@color/white"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 app:layout_constraintTop_toTopOf="@id/konten4_1"
                 app:layout_constraintBottom_toBottomOf="@id/konten4_1"
                 app:layout_constraintStart_toEndOf="@id/konten4sub1"
@@ -149,7 +149,7 @@
                 android:gravity="center"
                 android:background="@color/darker_brown"
                 android:textColor="@color/white"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 app:layout_constraintTop_toTopOf="@id/konten4_2"
                 app:layout_constraintBottom_toBottomOf="@id/konten4_2"
                 app:layout_constraintStart_toStartOf="@id/konten4_2"
@@ -162,7 +162,7 @@
                 android:gravity="center"
                 android:background="@color/brown"
                 android:textColor="@color/white"
-                android:textSize="@dimen/font_size_3"
+                android:textSize="@dimen/font_size_2"
                 app:layout_constraintTop_toTopOf="@id/konten4_2"
                 app:layout_constraintBottom_toBottomOf="@id/konten4_2"
                 app:layout_constraintStart_toEndOf="@id/konten4sub3"

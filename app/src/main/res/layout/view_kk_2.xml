@@ -48,7 +48,7 @@
                 <TextView
                     android:id="@+id/konten1"
                     android:text="@string/konten_kk_first_poin_1"
-                    android:textSize="@dimen/font_size_3"
+                    android:textSize="@dimen/font_size_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
@@ -76,7 +76,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="0.9"
-                            android:textSize="@dimen/font_size_3"
+                            android:textSize="@dimen/font_size_2"
                             android:text="@string/konten_kk_first_poin_2" />
                     </TableRow>
                     <TableRow android:orientation="horizontal">
@@ -90,7 +90,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="0.9"
-                            android:textSize="@dimen/font_size_3"
+                            android:textSize="@dimen/font_size_2"
                             android:text="@string/konten_kk_first_poin_3" />
                     </TableRow>
                     <TableRow android:orientation="horizontal">
@@ -104,7 +104,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="0.9"
-                            android:textSize="@dimen/font_size_3"
+                            android:textSize="@dimen/font_size_2"
                             android:text="@string/konten_kk_first_poin_4"/>
                     </TableRow>
                     <TableRow android:orientation="horizontal">
@@ -118,7 +118,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="0.9"
-                            android:textSize="@dimen/font_size_3"
+                            android:textSize="@dimen/font_size_2"
                             android:text="@string/konten_kk_first_poin_5"/>
                     </TableRow>
                 </TableLayout>

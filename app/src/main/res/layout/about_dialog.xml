@@ -121,17 +121,30 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
+                    android:text="@string/about_item_5"
+                    android:textSize="@dimen/font_size_2"
+                    android:textColor="@color/blue"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toTopOf="@id/text_about_5"
+                    app:layout_constraintEnd_toEndOf="@id/konten_isian"
+                    app:layout_constraintStart_toStartOf="@id/konten_isian"
+                    app:layout_constraintTop_toBottomOf="@id/text_about_7" />
+                <TextView
+                    android:id="@+id/text_about_7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
                     android:text="@string/referensi_title"
                     android:textColor="@color/purple_dark"
                     android:gravity="center"
                     android:textSize="@dimen/font_size_5"
                     android:textStyle="bold"
-                    app:layout_constraintBottom_toTopOf="@id/text_about_7"
+                    app:layout_constraintBottom_toTopOf="@id/text_about_8"
                     app:layout_constraintEnd_toEndOf="@id/konten_isian"
                     app:layout_constraintStart_toStartOf="@id/konten_isian"
-                    app:layout_constraintTop_toBottomOf="@id/text_about_5" />
+                    app:layout_constraintTop_toBottomOf="@id/text_about_6" />
                 <TableLayout
-                    android:id="@+id/text_about_7"
+                    android:id="@+id/text_about_8"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:stretchColumns="1"
@@ -139,7 +152,7 @@
                     android:gravity="center"
                     app:layout_constraintEnd_toEndOf="@id/konten_isian"
                     app:layout_constraintStart_toStartOf="@id/konten_isian"
-                    app:layout_constraintTop_toBottomOf="@id/text_about_6">
+                    app:layout_constraintTop_toBottomOf="@id/text_about_7">
                     <TableRow android:orientation="horizontal">
                         <TextView
                             android:layout_width="0dp"

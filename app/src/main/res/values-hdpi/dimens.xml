@@ -4,13 +4,13 @@
     <dimen name="font_size_splash2">34px</dimen>
     <dimen name="font_size_splash3">27px</dimen>
     <dimen name="font_size_title">48px</dimen>
-    <dimen name="font_size_1">20px</dimen>
+    <dimen name="font_size_1">18px</dimen>
     <dimen name="font_size_2">24px</dimen>
     <dimen name="font_size_3">27px</dimen>
     <dimen name="font_size_4">30px</dimen>
-    <dimen name="font_size_5">36px</dimen>
+    <dimen name="font_size_5">40px</dimen>
     <dimen name="pad_xxh_12">6px</dimen>
-    <dimen name="pad_xxh_27">14px</dimen>
+    <dimen name="pad_xxh_27">13px</dimen>
     <dimen name="pad_xxh_60">30px</dimen>
     <dimen name="pad_xxh_72">36px</dimen>
     <dimen name="px_xxh_80">40px</dimen>
