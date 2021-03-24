@@ -15,5 +15,5 @@
     <dimen name="pad_xxh_72">48px</dimen>
     <dimen name="px_xxh_80">54px</dimen>
     <dimen name="px_xxh_120">80px</dimen>
-    <dimen name="px_m_100">200px</dimen>
+    <dimen name="px_m_70">150px</dimen>
 </resources>

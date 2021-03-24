@@ -74,8 +74,8 @@
             app:layout_constraintStart_toStartOf="@id/bottom"
             app:layout_constraintEnd_toEndOf="@id/bottom" />
         <Button
-            android:layout_width="@dimen/px_m_100"
-            android:layout_height="@dimen/px_m_100"
+            android:layout_width="@dimen/px_m_70"
+            android:layout_height="@dimen/px_m_70"
             android:id="@+id/button_masuk"
             android:text="@string/nav_masuk"
             android:textSize="@dimen/font_size_splash3"
