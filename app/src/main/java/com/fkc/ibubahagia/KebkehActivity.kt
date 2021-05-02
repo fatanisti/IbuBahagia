@@ -50,7 +50,6 @@ class KebkehActivity : AppCompatActivity() {
             }
         })
         mHomeWatcher.startWatch()
-
         init()
     }
     private fun init() {

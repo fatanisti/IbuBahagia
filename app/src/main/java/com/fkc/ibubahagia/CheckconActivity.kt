@@ -1,4 +1,4 @@
- package com.fkc.ibubahagia
+package com.fkc.ibubahagia
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -14,11 +14,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.fkc.ibubahagia.databinding.ActivityCheckconBinding
 
- class CheckconActivity : AppCompatActivity() {
-     private lateinit var binding : ActivityCheckconBinding
-     private lateinit var mHomeWatcher : HomeWatcher
-     private var counter = 0
-     private var sumScore = 0
+class CheckconActivity : AppCompatActivity() {
+    private lateinit var binding : ActivityCheckconBinding
+    private lateinit var mHomeWatcher : HomeWatcher
+    private var counter = 0
+    private var sumScore = 0
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -785,58 +785,58 @@ import com.fkc.ibubahagia.databinding.ActivityCheckconBinding
             alert.show()
         }
     }
-     private var mIsBound = false
-     private var mServ: MusicService? = null
-     private val serviceConnection: ServiceConnection = object : ServiceConnection {
-         override fun onServiceConnected(name: ComponentName, binder: IBinder) {
-             mServ = (binder as MusicService.ServiceBinder).service
-         }
-         override fun onServiceDisconnected(name: ComponentName) {
-             mServ = null
-         }
-     }
+    private var mIsBound = false
+    private var mServ: MusicService? = null
+    private val serviceConnection: ServiceConnection = object : ServiceConnection {
+        override fun onServiceConnected(name: ComponentName, binder: IBinder) {
+            mServ = (binder as MusicService.ServiceBinder).service
+        }
+        override fun onServiceDisconnected(name: ComponentName) {
+            mServ = null
+        }
+    }
 
-     private fun doBindService() {
-         bindService(
-                 Intent(this, MusicService::class.java),
-                 serviceConnection, Context.BIND_AUTO_CREATE
-         )
-         mIsBound = true
-     }
+    private fun doBindService() {
+        bindService(
+                Intent(this, MusicService::class.java),
+                serviceConnection, Context.BIND_AUTO_CREATE
+        )
+        mIsBound = true
+    }
 
-     private fun doUnbindService() {
-         if (mIsBound) {
-             unbindService(serviceConnection)
-             mIsBound = false
-         }
-     }
+    private fun doUnbindService() {
+        if (mIsBound) {
+            unbindService(serviceConnection)
+            mIsBound = false
+        }
+    }
 
-     override fun onResume() {
-         super.onResume()
-         if (mServ != null) {
-             mServ!!.resumeMusic()
-         }
-     }
+    override fun onResume() {
+        super.onResume()
+        if (mServ != null) {
+            mServ!!.resumeMusic()
+        }
+    }
 
-     override fun onPause() {
-         super.onPause()
-         val pm =
-                 getSystemService(Context.POWER_SERVICE) as PowerManager
-         val isScreenOn: Boolean
-         isScreenOn = pm.isInteractive
-         if (!isScreenOn) {
-             if (mServ != null) {
-                 mServ!!.pauseMusic()
-             }
-         }
-     }
+    override fun onPause() {
+        super.onPause()
+        val pm =
+                getSystemService(Context.POWER_SERVICE) as PowerManager
+        val isScreenOn: Boolean
+        isScreenOn = pm.isInteractive
+        if (!isScreenOn) {
+            if (mServ != null) {
+                mServ!!.pauseMusic()
+            }
+        }
+    }
 
-     override fun onDestroy() {
-         super.onDestroy()
-         doUnbindService()
-         mHomeWatcher.stopWatch()
-         val music = Intent()
-         music.setClass(this, MusicService::class.java)
-         stopService(music)
-     }
+    override fun onDestroy() {
+        super.onDestroy()
+        doUnbindService()
+        mHomeWatcher.stopWatch()
+        val music = Intent()
+        music.setClass(this, MusicService::class.java)
+        stopService(music)
+    }
 }

@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/konten_tmd_second_poin_1"
-            android:textSize="18sp"
+            android:textSize="@dimen/font_size_2"
             app:layout_constraintTop_toTopOf="@id/teks"
             app:layout_constraintBottom_toBottomOf="@id/teks"
             app:layout_constraintStart_toStartOf="@id/teks"
