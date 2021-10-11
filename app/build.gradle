@@ -24,14 +24,14 @@ android {
             storePassword keystoreProperties['storePassword']
         }
         debug {
-            storeFile file('C:\\Users\\ASUS\\.android\\debug.keystore')
+            storeFile file('C:\\Users\\fatan\\.android\\debug.keystore')
             keyAlias 'androiddebugkey'
             storePassword 'android'
             keyPassword 'android'
         }
     }
 
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     buildFeatures {
         dataBinding = true
@@ -42,7 +42,7 @@ android {
     defaultConfig {
         applicationId "com.fkc.ibubahagia"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
@@ -71,15 +71,15 @@ android {
 
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    def fragment_version = '1.3.0'
+    def fragment_version = '1.3.6'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
     implementation 'com.google.code.gson:gson:2.8.6'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
