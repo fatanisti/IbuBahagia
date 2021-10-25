@@ -4,11 +4,14 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.ServiceConnection
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.os.IBinder
 import android.os.PowerManager
+import android.text.method.LinkMovementMethod
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -60,6 +63,10 @@ class ContactActivity : AppCompatActivity(), RecyclerViewClickListener {
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }
+
+        val link1 = binding.subTitle1
+        link1.movementMethod = LinkMovementMethod.getInstance()
+        link1.setLinkTextColor(Color.parseColor("#C32969"))
     }
 
     override fun onItemClicked(view: View, contact: Contact) {

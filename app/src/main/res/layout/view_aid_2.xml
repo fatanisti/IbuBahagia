@@ -36,68 +36,10 @@
             android:layout_height="0dp"
             android:gravity="center_vertical"
             app:layout_constraintTop_toBottomOf="@id/title"
-            app:layout_constraintBottom_toTopOf="@id/bullet_konten1"
-            app:layout_constraintStart_toStartOf="@id/container"
-            app:layout_constraintEnd_toEndOf="@id/container"
-            app:layout_constraintVertical_weight="2"/>
-        <TableLayout
-            android:id="@+id/bullet_konten1"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginHorizontal="20dp"
-            android:stretchColumns="1"
-            android:gravity="center_horizontal|top"
-            app:layout_constraintTop_toBottomOf="@id/konten1"
             app:layout_constraintBottom_toBottomOf="@id/container"
             app:layout_constraintStart_toStartOf="@id/container"
             app:layout_constraintEnd_toEndOf="@id/container"
-            app:layout_constraintVertical_weight="4">
-            <TableRow android:orientation="horizontal">
-                <ImageView
-                    android:layout_height="@dimen/px_xxh_80"
-                    android:scaleType="fitStart"
-                    android:layout_marginEnd="10dp"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.1"
-                    android:src="@drawable/bullet_flower_bw"/>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.9"
-                    android:textSize="@dimen/font_size_2"
-                    android:textColor="@color/white"
-                    android:text="@string/konten_aid_first_poin_2"/>
-            </TableRow>
-            <TableRow android:orientation="horizontal">
-                <ImageView
-                    android:layout_height="@dimen/px_xxh_80"
-                    android:scaleType="fitStart"
-                    android:layout_marginEnd="10dp"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.1"
-                    android:src="@drawable/bullet_flower_bw"/>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.9"
-                    android:textSize="@dimen/font_size_2"
-                    android:textColor="@color/white"
-                    android:text="@string/konten_aid_first_poin_3"/>
-            </TableRow>
-            <TableRow android:orientation="horizontal">
-                <ImageView
-                    android:layout_height="@dimen/px_xxh_80"
-                    android:scaleType="fitStart"
-                    android:layout_marginEnd="10dp"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.1"
-                    android:src="@drawable/bullet_flower_bw"/>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.9"
-                    android:textSize="@dimen/font_size_2"
-                    android:textColor="@color/white"
-                    android:text="@string/konten_aid_first_poin_4"/>
-            </TableRow>
-        </TableLayout>
+            app:layout_constraintVertical_weight="4"/>
         <ImageView
             android:id="@+id/gambar"
             android:src="@drawable/pic5dina"
